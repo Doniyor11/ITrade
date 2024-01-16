@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>I Trade</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Play:wght@400;700&display=swap&_v=20240112145842" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240112145842">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div data-da=".menu__body,480" class="header__icons">
+					<a href="#" target="_blank" class="header__icon">
+						<img src="img/icons/tg_w.svg" alt="Telegram">
+					</a>
+					<a href="#" target="_blank" class="header__icon">
+						<img src="img/icons/instagram_w.svg" alt="Instagram">
+					</a>
+					<a href="#" target="_blank" class="header__icon">
+						<img src="img/icons/facebook_w.svg" alt="Facebook">
+					</a>
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><button data-goto="#about" type="button" class="menu__link">Обо мне</button></li>
+							<li class="menu__item"><button data-goto="#prices" type="button" class="menu__link">Тарифы</button></li>
+							<li class="menu__item"><button data-goto="#statistics" type="button" class="menu__link">Статистика</button></li>
+							<li class="menu__item"><button data-goto="#social" type="button" class="menu__link">Контакты</button></li>
+							<li class="menu__item"><button data-goto="#reviews" type="button" class="menu__link">Отзывы</button></li>
+						</ul>
+					</nav>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="mainscreen">
+				<div class="mainscreen__container">
+					<div class="mainscreen__content">
+						<a href="index.html" class="mainscreen__logo">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img class="img-fluid" src="img/logo.png" alt="I trade logo"></picture>
+						</a>
+						<div class="mainscreen__content-content">
+							<h1 class="mainscreen__title">Искандари Маъруф</h1>
+							<p class="mainscreen__text">
+								Экспертный трейдинговый консультант - Ваш путь к профессиональной торговле
+							</p>
+						</div>
+						<button class="mainscreen__btn button button_big" data-goto="#request" type="button">Записаться</button>
+					</div>
+
+					<div class="decoration main-decoration_1">
+						<div class="decoration__img">
+							<picture><source srcset="img/mainscreen/1.webp" type="image/webp"><img class="img-fluid" src="img/mainscreen/1.png" alt="bybit"></picture>
+						</div>
+						<div class="decoration__content">
+							<div class="decoration__label">Закрытие сделки:</div>
+							<div class="decoration__price">+100$</div>
+						</div>
+					</div>
+					<div class="decoration main-decoration_2">
+						<div class="decoration__img">
+							<picture><source srcset="img/mainscreen/1.webp" type="image/webp"><img class="img-fluid" src="img/mainscreen/1.png" alt="bybit"></picture>
+						</div>
+						<div class="decoration__content">
+							<div class="decoration__label">Закрытие сделки:</div>
+							<div class="decoration__price">+200$</div>
+						</div>
+					</div>
+					<div class="decoration main-decoration_3">
+						<div class="decoration__img">
+							<picture><source srcset="img/mainscreen/2.webp" type="image/webp"><img class="img-fluid" src="img/mainscreen/2.png" alt="bybit"></picture>
+						</div>
+						<div class="decoration__content">
+							<div class="decoration__label">Закрытие сделки:</div>
+							<div class="decoration__price">+400$</div>
+						</div>
+					</div>
+					<div class="decoration main-decoration_4">
+						<div class="decoration__img">
+							<picture><source srcset="img/mainscreen/2.webp" type="image/webp"><img class="img-fluid" src="img/mainscreen/2.png" alt="bybit"></picture>
+						</div>
+						<div class="decoration__content">
+							<div class="decoration__label">Закрытие сделки:</div>
+							<div class="decoration__price">+300$</div>
+						</div>
+					</div>
+					<div class="decoration main-decoration_5">
+						<div class="decoration__img">
+							<picture><source srcset="img/mainscreen/1.webp" type="image/webp"><img class="img-fluid" src="img/mainscreen/1.png" alt="bybit"></picture>
+						</div>
+						<div class="decoration__content">
+							<div class="decoration__label">Закрытие сделки:</div>
+							<div class="decoration__price">+80$</div>
+						</div>
+					</div>
+					<div class="decoration main-decoration_6">
+						<div class="decoration__img">
+							<picture><source srcset="img/mainscreen/2.webp" type="image/webp"><img class="img-fluid" src="img/mainscreen/2.png" alt="bybit"></picture>
+						</div>
+						<div class="decoration__content">
+							<div class="decoration__label">Закрытие сделки:</div>
+							<div class="decoration__price">+150$</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="about" class="about">
+				<div class="about__container">
+					<div class="about__img">
+						<picture><source srcset="img/about/1.webp" type="image/webp"><img class="img-fluid" src="img/about/1.png" alt="About Me"></picture>
+						<picture><source srcset="img/about/1_mob.webp" type="image/webp"><img class="img-fluid mob" src="img/about/1_mob.png" alt="About Me"></picture>
+					</div>
+					<div class="about__content">
+						<h2 data-da=".about__container,992.98,first" class="about__title title title_border">About Me</h2>
+						<div class="about__text text">
+							<p>
+								Приветствую вас на платформе профессионального трейдинга Искандари Маъруф!
+							</p>
+							<p>
+								С 2016 года я посвятил себя изучению и практике трейдинга, обретя богатый опыт и глубокие знания в этой сфере. Теперь я готов поделиться своими навыками и инсайдами с вами, чтобы вы могли не просто торговать, но достигать постоянных и впечатляющих результатов.
+							</p>
+							<p>
+								<span>Онлайн-консультации:</span> Получите доступ к персонализированным онлайн-сессиям, где я помогу вам разработать стратегии, анализировать рынки и принимать обоснованные торговые решения.
+							</p>
+							<p>
+								<span>Оффлайн-консультации:</span> Встретимся лицом к лицу, чтобы глубже погрузиться в мир трейдинга и проработать индивидуальные аспекты вашей торговой деятельности.
+							</p>
+							<p>
+								Начните свой путь к успешному трейдингу сегодня – присоединяйтесь к моим консультациям и откройте для себя новые возможности в инвестициях и управлении капиталом!
+							</p>
+						</div>
+						<button class="about__btn button" type="button" data-goto="#social">Посмотреть соц. сети</button>
+					</div>
+				</div>
+			</section>
+			<section id="prices" class="prices">
+				<div class="prices__container">
+					<div class="prices__item item-price">
+						<h4 class="item-price__title title title_big">ONLINE</h4>
+						<div class="item-price__label">консультация</div>
+						<ul class="item-price__list">
+							<li class="item-price__item">
+								Гибкость расписания: Вы сможете выбрать удобное время для сессий, не зависимо от вашего часового пояса.
+							</li>
+							<li class="item-price__item">
+								Комфорт домашней обстановки: Получайте консультации в привычной обстановке, не тратя время на дорогу.
+							</li>
+							<li class="item-price__item">
+								Экономия времени и денег: Сокращение расходов на транспорт и другие накладные расходы связанные с очными встречами.
+							</li>
+							<li class="item-price__item">
+								Оперативная связь: Быстрая обратная связь и возможность обсуждения срочных вопросов в режиме реального времени.
+							</li>
+							<li class="item-price__item">
+								Цифровые ресурсы: Предоставление всех необходимых цифровых материалов и инструментов для анализа.
+							</li>
+							<li class="item-price__item">
+								Запись сессий: Возможность записи ваших консультаций для последующего просмотра и анализа.
+							</li>
+						</ul>
+						<div class="item-price__price">
+							<span>150$</span> в час
+						</div>
+					</div>
+					<div class="prices__item item-price">
+						<h4 class="item-price__title title title_big">OFFLINE</h4>
+						<div class="item-price__label">консультация</div>
+						<ul class="item-price__list">
+							<li class="item-price__item">
+								Личный контакт: Непосредственное общение и возможность лучше узнать трейдера для индивидуального подхода.
+							</li>
+							<li class="item-price__item">
+								Полное погружение: Оффлайн-сессии обеспечивают более глубокое понимание материала и практические занятия.
+							</li>
+							<li class="item-price__item">
+								Реальные кейсы: Возможность анализировать реальные торговые ситуации и графики вместе с экспертом.
+							</li>
+							<li class="item-price__item">
+								Индивидуальные упражнения: Персонализированные задания и обратная связь, нацеленные на улучшение ваших умений.
+							</li>
+							<li class="item-price__item">
+								Сетевое взаимодействие: Возможность встретиться и общаться с другими трейдерами и инвесторами.
+							</li>
+							<li class="item-price__item">
+								Комплексный подход: Интеграция теории и практики для комплексного освоения трейдинга.
+							</li>
+						</ul>
+						<div class="item-price__price">
+							<span>250$</span> в час
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="statistics" class="statistics">
+				<div class="statistics__container">
+					<h2 class="statistics__title title title_border">Statistics</h2>
+					<ul class="statistics__list">
+						<li class="statistics__item item-statistics">
+							<div class="item-statistics__icon">
+								<picture><source srcset="img/statistics/1.webp" type="image/webp"><img class="img-fluid" src="img/statistics/1.png" alt="87% Успешных сделок"></picture>
+							</div>
+							<div class="item-statistics__num item-statistics__num_s64">
+								<span>87%</span>
+							</div>
+							<h4 class="item-statistics__title">Успешных сделок</h4>
+						</li>
+						<li class="statistics__item item-statistics">
+							<div class="item-statistics__icon item-statistics__icon_dollar">
+								<picture><source srcset="img/statistics/2.webp" type="image/webp"><img class="img-fluid" src="img/statistics/2.png" alt="25 000$ Среднемесячная прибыль"></picture>
+							</div>
+							<div class="item-statistics__num item-statistics__num_s40">
+								<span>25 000$</span>
+							</div>
+							<h4 class="item-statistics__title">Среднемесячная прибыль</h4>
+						</li>
+						<li class="statistics__item item-statistics">
+							<div class="item-statistics__icon item-statistics__icon_arrow">
+								<picture><source srcset="img/statistics/3.webp" type="image/webp"><img class="img-fluid" src="img/statistics/3.png" alt="Свыше 100 000$ Общая прибыль"></picture>
+							</div>
+							<div class="item-statistics__num item-statistics__num_s34">
+								<span>Свыше <br> 100 000$</span>
+							</div>
+							<h4 class="item-statistics__title">Общая прибыль</h4>
+						</li>
+						<li class="statistics__item item-statistics">
+							<div class="item-statistics__icon item-statistics__icon_user">
+								<picture><source srcset="img/statistics/4.webp" type="image/webp"><img class="img-fluid" src="img/statistics/4.png" alt="Более 200 человек Прошли обучение"></picture>
+							</div>
+							<div class="item-statistics__num item-statistics__num_s34">
+								<span>Более <br><span>200</span><br> человек</span>
+							</div>
+							<h4 class="item-statistics__title">Прошли обучение</h4>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section id="social" class="social">
+				<div class="social__container">
+					<h2 class="social__title title title_border">Social networks</h2>
+					<div class="social__list social__list_main">
+						<div class="social__item item-social">
+							<picture><source srcset="img/social/bg.webp" type="image/webp"><img class="item-social__bg" src="img/social/bg.png" alt=""></picture>
+							<button type="button" data-open-tg class="item-social__link">
+								<div class="item-social__img">
+									<img class="img-fluid" src="img/social/tg.svg" alt="telegram">
+								</div>
+								<h4 class="item-social__title">telegram</h4>
+							</button>
+						</div>
+						<div class="social__item item-social">
+							<picture><source srcset="img/social/bg.webp" type="image/webp"><img class="item-social__bg" src="img/social/bg.png" alt=""></picture>
+							<a href="#" target="_blank" class="item-social__link">
+								<div class="item-social__img">
+									<img class="img-fluid" src="img/social/instagram.svg" alt="instagram">
+								</div>
+								<h4 class="item-social__title">instagram</h4>
+							</a>
+						</div>
+						<div class="social__item item-social">
+							<picture><source srcset="img/social/bg.webp" type="image/webp"><img class="item-social__bg" src="img/social/bg.png" alt=""></picture>
+							<a href="#" target="_blank" class="item-social__link">
+								<div class="item-social__img">
+									<img class="img-fluid" src="img/social/facebook.svg" alt="facebook">
+								</div>
+								<h4 class="item-social__title">facebook</h4>
+							</a>
+						</div>
+					</div>
+					<div class="social__list social__list_extra">
+						<button data-close-tg class="social__arrow" type="button">
+							<picture><source srcset="img/social/arrow-left.webp" type="image/webp"><img src="img/social/arrow-left.png" alt="Come back"></picture>
+						</button>
+						<div data-tg class="social__item item-social item-social_rus">
+							<picture><source srcset="img/social/bg.webp" type="image/webp"><img class="item-social__bg" src="img/social/bg.png" alt=""></picture>
+							<a href="#" target="_blank" class="item-social__link">
+								<div class="item-social__img">
+									<img class="img-fluid" src="img/social/tg.svg" alt="Фьючерсы">
+								</div>
+								<h4 class="item-social__title">Фьючерсы</h4>
+							</a>
+						</div>
+						<div data-tg class="social__item item-social item-social_rus">
+							<picture><source srcset="img/social/bg.webp" type="image/webp"><img class="item-social__bg" src="img/social/bg.png" alt=""></picture>
+							<a href="#" target="_blank" class="item-social__link">
+								<div class="item-social__img">
+									<img class="img-fluid" src="img/social/tg.svg" alt="Бинарные опционы">
+								</div>
+								<h4 class="item-social__title">Бинарные опционы</h4>
+							</a>
+						</div>
+						<div data-tg class="social__item item-social">
+							<picture><source srcset="img/social/bg.webp" type="image/webp"><img class="item-social__bg" src="img/social/bg.png" alt=""></picture>
+							<a href="#" target="_blank" class="item-social__link">
+								<div class="item-social__img">
+									<img class="img-fluid" src="img/social/tg.svg" alt="Forex">
+								</div>
+								<h4 class="item-social__title">Forex</h4>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="why" class="about about-rev">
+				<div class="about__container about-rev__container">
+					<div class="about__img">
+						<picture><source srcset="img/why/1.webp" type="image/webp"><img class="img-fluid" src="img/why/1.png" alt="Why me"></picture>
+					</div>
+					<div class="about__content">
+						<h2 data-da=".about-rev__container,992.98,first" class="about__title title title_border">Why me</h2>
+						<div class="about__text text">
+							<p>
+								Выбирая меня, вы выбираете не просто трейдинговые курсы, а комплексный путь к успеху в финансовых рынках. Я не просто наставник — я ваш партнёр на каждом этапе обучения. Вот несколько причин, почему стоит начать именно со мной:
+							</p>
+							<p>
+								- Персонализированный подход: Каждый трейдер уникален. Я уделяю индивидуальное внимание вашему стилю торговли, целям и потребностям.
+								- Глубина знаний: Опыт более 4 лет позволяет мне предоставлять знания, проверенные временем и рынком.
+								- Результативные стратегии: Я научу вас не только анализировать рынки, но и разрабатывать стратегии, которые работают.
+								- Прозрачность процесса: Я всегда честен относительно рисков и потенциальных выгод трейдинга.
+								- Поддержка и развитие: Ваше обучение не заканчивается выдачей сертификата. Я буду сопровождать вас, помогая адаптироваться к меняющимся условиям рынка.
+								- Обучение мышлению: Со мной вы научитесь не просто следовать инструкциям, а мыслить как настоящий трейдер.
+							</p>
+							<p>
+								Присоединяйтесь ко мне, и вместе мы достигнем новых высот в мире финансовых рынков.
+							</p>
+						</div>
+						<button data-goto="#request" class="about__btn button" type="button">Записаться</button>
+					</div>
+				</div>
+			</section>
+			<section id="reviews" class="reviews">
+				<div class="reviews__container">
+					<div class="reviews-slider swiper">
+						<h2 class="reviews__title title title_border">Reviews</h2>
+						<div class="reviews-slider__wrapper swiper-wrapper">
+							<div class="reviews-slider__slide swiper-slide">
+								<picture><source srcset="img/reviews/bg.webp" type="image/webp"><img class="reviews-slider__bg" src="img/reviews/bg.png" alt="bg"></picture>
+								<div class="reviews-slider__slide-content">
+									<div class="reviews-slider__head">
+										<div class="reviews-slider__img">
+											<picture><source srcset="img/reviews/1.webp" type="image/webp"><img class="img-fluid" src="img/reviews/1.png" alt="Ахмед"></picture>
+										</div>
+										<div class="reviews-slider__head-content">
+											<div class="reviews-slider__head-name">Ахмед</div>
+											<div class="reviews-slider__head-status">Online</div>
+										</div>
+									</div>
+									<p class="reviews-slider__text text">
+										Погрузившись в мир трейдинга, я обрел новый уровень финансовой независимости. Этот опыт открыл мне глаза на возможности, которые прежде казались недосягаемыми. Обучение, полученное в процессе торговли, позволило мне понять не только рынок, но и самого себя. Стратегии, освоенные благодаря трейдингу, стали моими верными спутниками в достижении финансовых целей. Теперь я уверенно навигирую в мире инвестиций и готов к новым финансовым возможностям, благодаря знаниям и навыкам, полученным через трейдинг.
+									</p>
+								</div>
+							</div>
+							<div class="reviews-slider__slide swiper-slide">
+								<picture><source srcset="img/reviews/bg.webp" type="image/webp"><img class="reviews-slider__bg" src="img/reviews/bg.png" alt="bg"></picture>
+								<div class="reviews-slider__slide-content">
+									<div class="reviews-slider__head">
+										<div class="reviews-slider__img">
+											<picture><source srcset="img/reviews/2.webp" type="image/webp"><img class="img-fluid" src="img/reviews/2.png" alt="Нияра "></picture>
+										</div>
+										<div class="reviews-slider__head-content">
+											<div class="reviews-slider__head-name">Нияра </div>
+											<div class="reviews-slider__head-status">Offline</div>
+										</div>
+									</div>
+									<p class="reviews-slider__text">
+										Погрузившись в мир трейдинга, я обрел новый уровень финансовой независимости. Этот опыт открыл мне глаза на возможности, которые прежде казались недосягаемыми. Обучение, полученное в процессе торговли, позволило мне понять не только рынок, но и самого себя. Стратегии, освоенные благодаря трейдингу, стали моими верными спутниками в достижении финансовых целей. Теперь я уверенно навигирую в мире инвестиций и готов к новым финансовым возможностям, благодаря знаниям и навыкам, полученным через трейдинг.
+									</p>
+								</div>
+							</div>
+							<div class="reviews-slider__slide swiper-slide">
+								<picture><source srcset="img/reviews/bg.webp" type="image/webp"><img class="reviews-slider__bg" src="img/reviews/bg.png" alt="bg"></picture>
+								<div class="reviews-slider__slide-content">
+									<div class="reviews-slider__head">
+										<div class="reviews-slider__img">
+											<picture><source srcset="img/reviews/3.webp" type="image/webp"><img class="img-fluid" src="img/reviews/3.png" alt="Александа"></picture>
+										</div>
+										<div class="reviews-slider__head-content">
+											<div class="reviews-slider__head-name">Александа</div>
+											<div class="reviews-slider__head-status">Online</div>
+										</div>
+									</div>
+									<p class="reviews-slider__text">
+										Погрузившись в мир трейдинга, я обрел новый уровень финансовой независимости. Этот опыт открыл мне глаза на возможности, которые прежде казались недосягаемыми. Обучение, полученное в процессе торговли, позволило мне понять не только рынок, но и самого себя. Стратегии, освоенные благодаря трейдингу, стали моими верными спутниками в достижении финансовых целей. Теперь я уверенно навигирую в мире инвестиций и готов к новым финансовым возможностям, благодаря знаниям и навыкам, полученным через трейдинг.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="request" class="request">
+				<picture><source srcset="img/request/bg.webp" type="image/webp"><img class="request__bg" src="img/request/bg.png" alt="bg"></picture>
+				<div class="request__container">
+					<form data-ajax action="files/sendmail/sendmail.php" method="POST" class="request__form form-request">
+						<h2 data-da=".request__container,992.98,first" class="form-request__title title title_monserrat">Отправить заявку на консультацию</h2>
+						<div class="form-request__item">
+							<picture><source srcset="img/request/input-bg.webp" type="image/webp"><img class="input-bg" src="img/request/input-bg.png" alt="input bg"></picture>
+							<label for="phone" class="form-request__label">Номер телефона</label>
+							<input type="text" id="phone" data-required="phone" name="phone" data-error="Введите номер телефона" placeholder="Номер телефона" class="form-request__input">
+						</div>
+						<div class="form-request__item">
+							<picture><source srcset="img/request/input-bg.webp" type="image/webp"><img class="input-bg" src="img/request/input-bg.png" alt="input bg"></picture>
+							<label for="tg" class="form-request__label">Telegram user-name</label>
+							<input type="text" id="tg" data-required name="tg" data-error="Введите Telegram user-name" placeholder="Telegram user-name" class="form-request__input">
+						</div>
+						<div class="form-request__item">
+							<picture><source srcset="img/request/input-bg.webp" type="image/webp"><img class="input-bg" src="img/request/input-bg.png" alt="input bg"></picture>
+							<label for="email" class="form-request__label">E-mail</label>
+							<input type="text" id="email" data-required="email" name="email" data-error="Введите E-mail" placeholder="E-mail" class="form-request__input">
+						</div>
+						<div class="form-request__radios">
+							<div class="form-request__radios-item">
+								<input type="radio" checked name="consult" id="online">
+								<label for="online" class="form-request__radios-label">
+									<picture><source srcset="img/request/input-bg.webp" type="image/webp"><img class="input-bg" src="img/request/input-bg.png" alt="input bg"></picture>
+									<span>Online</span>
+								</label>
+							</div>
+							<div class="form-request__radios-item">
+								<input type="radio" name="consult" id="OFFline">
+								<label for="OFFline" class="form-request__radios-label">
+									<picture><source srcset="img/request/input-bg.webp" type="image/webp"><img class="input-bg" src="img/request/input-bg.png" alt="input bg"></picture>
+									<span>OFFline</span>
+								</label>
+							</div>
+						</div>
+						<button type="submit" class="form-request__btn button">Отправить</button>
+					</form>
+					<div class="request__img">
+						<picture><source srcset="img/request/1.webp" type="image/webp"><img class="img-fluid" src="img/request/1.png" alt="Отправить заявку на консультацию"></picture>
+						<picture><source srcset="img/request/1_mob.webp" type="image/webp"><img class="img-fluid request__img_mob" src="img/request/1_mob.png" alt="Отправить заявку на консультацию"></picture>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="index.html" class="footer__logo">
+					<picture><source srcset="img/logo.webp" type="image/webp"><img class="img-fluid" src="img/logo.png" alt="I trade logo"></picture>
+				</a>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240112145842"></script>
+</body>
+
+</html>
